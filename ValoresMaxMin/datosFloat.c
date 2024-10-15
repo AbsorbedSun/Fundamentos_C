@@ -7,7 +7,7 @@ int main(){
     // Apuntador
     char *p;
     // Asignar el apuntador al valor de memoria de una variable
-    p-&num;
+    p=&num;
 
     printf("\nByte 0: %.2x",*(p+0));
     printf("\nByte 1: %.2x",*(p+1));
